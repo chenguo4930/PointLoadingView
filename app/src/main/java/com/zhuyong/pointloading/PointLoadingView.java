@@ -42,7 +42,7 @@ public class PointLoadingView extends View {
     private float mBerSaiErY;//贝塞尔曲线的控制点的Y坐标
     private int mViewWidth;//view宽度
     private int mViewHeight;//view高度
-    private int mJumpHeight = 400;//小球跳起的最大高度，默认400dp，如果满足不了要求再根据view高度进行极端
+    private int mJumpHeight = 400;//小球跳起的最大高度，默认400dp，如果满足不了要求再根据view高度进行计算
     private int mDownPx = 100;//绳子下降的距离，默认100px，如果高度不允许再进行计算压缩高度
     private int mPointRadius = 40;//小球半径，40个像素
 
